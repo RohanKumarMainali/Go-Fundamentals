@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"practice/go/pointers"
 	"strings"
 )
 
@@ -30,6 +31,7 @@ func convertString(name string) string {
 	}
 
 	print()
+	pointers.Pointer()
 	return ans
 }
 
