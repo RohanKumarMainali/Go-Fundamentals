@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"practice/go/dsa"
 	"practice/go/pointers"
 	"strings"
 )
@@ -32,6 +33,7 @@ func convertString(name string) string {
 
 	print()
 	pointers.Pointer()
+	dsa.PrintMap()
 	return ans
 }
 
