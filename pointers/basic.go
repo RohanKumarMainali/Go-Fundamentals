@@ -8,7 +8,7 @@ type Creature struct {
 
 func changeCreature(creature *Creature) {
 	creature.Species = "jellyfish"
-	fmt.Printf("2) %+v\n", creature)
+	fmt.Printf(" 2) %+v\n", creature)
 }
 
 func add(a int32, b int32) int32 {
