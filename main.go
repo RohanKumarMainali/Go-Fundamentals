@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"practice/go/dsa"
 	"practice/go/pointers"
+	"practice/go/routine"
 	"strings"
 )
 
@@ -34,6 +35,7 @@ func convertString(name string) string {
 	print()
 	pointers.Pointer()
 	dsa.PrintMap()
+	routine.TestRoutine()
 	return ans
 }
 
