@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"practice/go/dsa"
-	"practice/go/pointers"
+	// "practice/go/dsa"
+	// "practice/go/pointers"
 	"practice/go/routine"
 	"strings"
 )
@@ -33,13 +33,15 @@ func convertString(name string) string {
 	}
 
 	print()
-	pointers.Pointer()
-	dsa.PrintMap()
+	// pointers.Pointer()
+	// dsa.PrintMap()
 	routine.TestRoutine()
 	return ans
 }
 
 func main() {
-	message := convertString("/home/")
-	fmt.Println(message)
+	// message := convertString("/home/")
+
+	routine.Concurrency()
+	// fmt.Println(message)
 }
