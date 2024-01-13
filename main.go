@@ -42,6 +42,7 @@ func convertString(name string) string {
 func main() {
 	// message := convertString("/home/")
 
-	routine.Concurrency()
+	// routine.Concurrency()
+	routine.MessageCommunicationMain()
 	// fmt.Println(message)
 }
